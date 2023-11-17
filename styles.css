@@ -1,0 +1,41 @@
+body {
+    background:linear-gradient(orange,rgb(210, 124, 25),orange);
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color:azure;
+}
+div#summary-of-self {
+    text-align: center;
+    color: darkblue;
+    font-size: 1.6rem;
+}
+div.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.25rem;
+}
+div.project-tools {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 2px;
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: gold;
+}
+div.project-image {
+    width: 10%;
+    height: 10%;
+    margin: 2px;
+}
+div.project-desc {
+    margin: 2px;
+}
+footer {
+    text-align: center;
+    background-color:palegoldenrod;
+    color:blue;
+}
